@@ -1,0 +1,14 @@
+[Unit]
+Description=Prometheus exporter for IOT metrics
+
+[Service]
+Restart=always
+User=iot_exporter
+ExecStart=/home/iot_exporter/iot_exporter_arm7
+TimeoutStopSec=20s
+SendSIGKILL=no
+EnvironmentFile=-/home/iot_exporter/.env
+WorkingDirectory=/home/iot_exporter/
+
+[Install]
+WantedBy=multi-user.target

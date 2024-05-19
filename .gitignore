@@ -7,6 +7,10 @@
 *.dll
 *.so
 *.dylib
+bin/
+
+# Local run files
+.env
 
 # Test binary, built with `go test -c`
 *.test

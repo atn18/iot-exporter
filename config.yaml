@@ -1,0 +1,6 @@
+iot:
+  host: "https://api.iot.yandex.net"
+# devices:
+#   - "b0cc8231-7c3a-4ad1-8e52-0662c855adf0"
+#   - "b5ac3979-6f63-4072-8508-b72a6a8a5831"
+listen: "localhost:9318"
